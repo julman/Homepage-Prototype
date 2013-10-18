@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="<%= yield(:appname) %>">
+<head>
+  <title>HpProto</title>
+  <%= stylesheet_link_tag "foundation.min" %>
+  <%= javascript_include_tag "angular" %>
+  <%= yield(:head) %>
+  <%= csrf_meta_tags %>
+</head>
+<body ng-controller="<%= yield(:controller) %>">
+
+	<div id="content">
+
+		<%= yield %>
+	</div>
+
+
+</body>
+</html>

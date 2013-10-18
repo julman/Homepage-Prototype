@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+	background-color: #f1f1f1;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: 'Century Gothic';
+}
+#content { 
+	max-width: 1032px;
+	margin: 0 auto;
+	text-align: left;
+	background-color: #fff;
+	padding: 15px;
+
+	.row {
+		max-width: 100%;
+	}
+}
+#heading {
+	text-align: center;
+	font-size: 48px;
+	margin: 15px 15px 35px 15px;
+
+	img {
+		display: block;
+		margin: 0 auto 20px auto;
+	}
+}
+#count { 
+	display: none;
+	text-align: center;
+	font-size: 28px;
+	margin: 10px 0 20px 0;
+}
+ul.joblist {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	min-height: 400px;
+	
+	li {
+		list-style-type: none;
+
+		span {
+			display: block;
+		}
+		.location {
+			font-size: 11px;
+			color: #666;
+		}
+		.title {
+			font-weight: bold;
+			color: #009;
+		}
+	}
+
+	.spinner {
+		background: #333 url('/assets/loading.gif') no-repeat center 100px;
+		width: 100%;
+		min-height: 400px;
+		height: 100%;
+		display: none;
+		position: absolute;
+		opacity: 0.5;
+	}
+}
+.resultsbox {
+	background: orange;
+	border-radius: 10px;
+	margin: 10px 0;
+	text-align: center;
+	padding: 15px; 
+	.heading {
+		font-weight: bold;
+		font-size: 14px;
+		display: block;
+	}
+	.body {
+		font-size: 18px;
+		display: block;
+		margin: 15px 0;
+	}
+	.link {
+		text-decoration: underline;
+		display: block;
+		color: blue;
+	}
+}

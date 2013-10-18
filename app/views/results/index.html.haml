@@ -1,0 +1,53 @@
+- content_for :head do
+  = stylesheet_link_tag :results
+  = javascript_include_tag :jobcontrollers
+- content_for(:appname, 'jobresultsApp')
+- content_for(:controller, 'JobResultsCtrl')
+
+#heading
+  = image_tag("logo.png")
+  Let's get building...
+= form_for :post do |f|
+  .row
+    .large-2.columns
+      = f.label :title
+      = f.text_field :title,  :"ng-model" => 'title', :"ng-keyup" => 'search()'
+    .large-2.columns
+      = f.label :location
+      = f.text_field :location, :"ng-model" => 'location', :"ng-keyup" => 'search()'
+    .large-2.columns
+      = f.label :salary
+      = f.text_field :salary, :"ng-model" => 'salary', :"ng-keyup" => 'search()'
+    .large-2.columns
+      = f.label :experience
+      = f.select :experience, (0..50), :"ng-model" => 'experience', :"ng-change" => 'search()'
+    .large-2.columns
+      = f.label :education
+      = f.select :education, [['Not Specified', 'DRNS'], ['None', 'DR3210'], ['High School', 'DR3211'], ['2 Year Degree', 'DR321'], ['4 Year Degree', 'DR32'], ['Graduate Degree', 'DR3']], :"ng-model" => 'education', :"ng-change" => 'search()'
+    .large-2.columns
+      = submit_tag "Clear form", :type => 'reset'
+#count {{filtered.length}} Jobs Available
+.row
+  .large-1.columns &nbsp;
+  .large-4.columns.resultsbox 
+    %span.heading Your potential salary range
+    %span.body Need some info about you
+    %span.link Get your personal career report
+  .large-2.columns &nbsp;
+  .large-4.columns.resultsbox
+    %span.heading Companies looking for you
+    %span.body Thousands!!!
+    %span.link View these companies
+  .large-1.columns &nbsp;
+%ul.joblist
+  / <li class="row" ng-repeat="job in filtered = (jobs | filter:title | filter:location | filter:salary | filter:experience | filter:education)">
+  .spinner
+  %li.row{"ng-repeat" => "job in filtered = (jobs)"}
+    .large-8.columns
+      %span.title {{job.title}}
+      %span.location {{job.location}}
+      %p.description {{job.description_teaser}}
+    .large-2.columns
+      ${{job.salary}}
+    .large-2.columns
+      {{job.posted}}
