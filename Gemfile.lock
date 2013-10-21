@@ -137,6 +137,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cb-api
   cb-api-internal (= 0.0.8)!
   coffee-rails (~> 4.0.0)
   haml
