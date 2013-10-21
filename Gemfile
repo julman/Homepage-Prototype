@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'cb-api-internal', '0.0.8', git: 'git@github.com:cbdr/ruby-cb-api-internal.git', ref: 'e419182eba2a60e707d9a68410ac4553c7b622a3'
+gem 'cb-api-internal', '0.0.8', git: 'git://github.com:cbdr/ruby-cb-api-internal.git', ref: 'e419182eba2a60e707d9a68410ac4553c7b622a3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'

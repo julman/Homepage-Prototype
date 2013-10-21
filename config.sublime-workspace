@@ -39,7 +39,25 @@
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1365,
+				"buffer_size": 1351,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 116 files for \"cb-api-0.4.5\"\n\n0 matches across 0 files\n",
+			"settings":
+			{
+				"buffer_size": 65,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Gemfile.lock",
+			"settings":
+			{
+				"buffer_size": 4216,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,6 +121,7 @@
 	},
 	"file_history":
 	[
+		"/Users/mharbers/Desktop/hp_proto/Gemfile.lock",
 		"/Users/mharbers/Desktop/hp_proto/app/views/layouts/application.html.erb",
 		"/Users/mharbers/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/mharbers/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -123,9 +142,11 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/mharbers/Desktop/hp_proto",
+			""
 		]
 	},
 	"find_state":
@@ -133,6 +154,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cb-api",
+			"cb-api-0.4.5",
+			"0.4.5",
 			"change",
 			"keyup"
 		],
@@ -152,7 +176,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -204,7 +228,8 @@
 						"settings":
 						{
 							"syntax": "Packages/Ruby Haml/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -218,15 +243,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1365,
+						"buffer_size": 1351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								175,
-								175
+								59,
+								59
 							]
 						],
 						"settings":
@@ -241,6 +266,68 @@
 				},
 				{
 					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								25
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gemfile.lock",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 166.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "app/assets/javascripts/angular.js",
 					"semi_transient": false,
 					"settings":
@@ -263,13 +350,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 8.0,
-						"translation.y": 203088.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "app/assets/javascripts/jobcontrollers.js",
 					"semi_transient": false,
 					"settings":
@@ -298,7 +385,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "app/controllers/job_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -316,7 +403,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -325,7 +413,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "app/assets/stylesheets/results.css.scss",
 					"semi_transient": false,
 					"settings":
