@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:cbdr/ruby-cb-api-internal.git
+  remote: https://github.com/cbdr/ruby-cb-api-internal.git
   revision: e419182eba2a60e707d9a68410ac4553c7b622a3
   ref: e419182eba2a60e707d9a68410ac4553c7b622a3
   specs:
