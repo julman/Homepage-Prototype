@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
+				"job_has",
+				"job_hashes"
+			],
+			[
 				"sear",
 				"searchresults"
 			]
@@ -20,26 +28,26 @@
 			}
 		},
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "app/views/results/index.html.haml",
 			"settings":
 			{
-				"buffer_size": 396,
+				"buffer_size": 2037,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/results_controller.rb",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 94,
+				"buffer_size": 1365,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/results/index.html.erb",
+			"file": "app/assets/javascripts/angular.js",
 			"settings":
 			{
-				"buffer_size": 2142,
+				"buffer_size": 504602,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +55,7 @@
 			"file": "app/assets/javascripts/jobcontrollers.js",
 			"settings":
 			{
-				"buffer_size": 1720,
+				"buffer_size": 1191,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,15 +63,7 @@
 			"file": "app/controllers/job_controller.rb",
 			"settings":
 			{
-				"buffer_size": 237,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile.lock",
-			"settings":
-			{
-				"buffer_size": 3087,
+				"buffer_size": 642,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +71,7 @@
 			"file": "app/assets/stylesheets/results.css.scss",
 			"settings":
 			{
-				"buffer_size": 660,
+				"buffer_size": 1314,
 				"line_ending": "Unix"
 			}
 		}
@@ -103,14 +103,23 @@
 	},
 	"file_history":
 	[
+		"/Users/mharbers/Desktop/hp_proto/app/views/layouts/application.html.erb",
+		"/Users/mharbers/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/mharbers/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mharbers/Desktop/hp_proto/app/views/results/index.html.erb",
+		"/Users/mharbers/.Trash/index.html.haml",
+		"/Users/mharbers/Desktop/hp_proto/app/views/results/index.html.haml",
 		"/Users/mharbers/Desktop/hp_proto/Gemfile",
+		"/Users/mharbers/Desktop/hp_proto/app/controllers/results_controller.rb",
+		"/Users/mharbers/Desktop/hp_proto/config/initializers/startup.rb",
+		"/Users/mharbers/CB-Mobile/Gemfile",
 		"/Users/mharbers/Desktop/hp_proto/app/assets/stylesheets/foundation.min.css",
 		"/Users/mharbers/Downloads/foundation-4.3.2/css/foundation.min.css",
 		"/Users/mharbers/Downloads/foundation-4.3.2/index.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -124,6 +133,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"change",
+			"keyup"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -141,7 +152,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -175,24 +186,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "app/views/results/index.html.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 396,
+						"buffer_size": 2037,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								1201,
+								1201
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Ruby Haml/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -202,19 +214,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "app/controllers/results_controller.rb",
+					"file": "Gemfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 94,
+						"buffer_size": 1365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								93,
-								94
+								175,
+								175
 							]
 						],
 						"settings":
@@ -229,28 +241,29 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/views/results/index.html.erb",
+					"file": "app/assets/javascripts/angular.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2142,
+						"buffer_size": 504602,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1892,
-								1892
+								446201,
+								446207
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 136.0,
+						"translation.x": 8.0,
+						"translation.y": 203088.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -261,15 +274,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1720,
+						"buffer_size": 1191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1568,
-								1568
+								188,
+								194
 							]
 						],
 						"settings":
@@ -290,15 +303,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 237,
+						"buffer_size": 642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								338,
+								338
 							]
 						],
 						"settings":
@@ -313,57 +326,28 @@
 				},
 				{
 					"buffer": 6,
-					"file": "Gemfile.lock",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3087,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 705.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "app/assets/stylesheets/results.css.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 660,
+						"buffer_size": 1314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								651,
-								651
+								941,
+								941
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 606.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -377,7 +361,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -405,7 +389,7 @@
 	"project": "config.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
