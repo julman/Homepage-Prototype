@@ -1,11 +1,3 @@
-GIT
-  remote: git@github.com:cbdr/ruby-cb-api-internal.git
-  revision: e419182eba2a60e707d9a68410ac4553c7b622a3
-  ref: e419182eba2a60e707d9a68410ac4553c7b622a3
-  specs:
-    cb-api-internal (0.0.8)
-      cb-api (~> 0.4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -165,7 +157,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cb-api-internal (= 0.0.8)!
+  cb-api
   coffee-rails (~> 4.0.0)
   haml
   haml-rails
