@@ -1,4 +1,4 @@
-require 'cb_internal'
+require 'cb'
 
 Cb.configure do |config|
   config.dev_key    = 'WDRF81661JM5WPB63DGJ'
