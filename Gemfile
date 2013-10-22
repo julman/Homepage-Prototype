@@ -32,7 +32,7 @@ gem 'haml'
 
 gem 'haml-rails'
 
-gem 'pg'
+gem 'sqlite3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
