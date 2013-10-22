@@ -1,6 +1,6 @@
 var jobresultsApp = angular.module('jobresultsApp', []);
 
-function JobResultsCtrl($scope, $http, $timeout) {
+jobresultsApp.controller('JobResultsCtrl', ['$scope', '$http', '$timeout', function ($scope, $http, $timeout) {
       timer = false;
 
       $scope.search = function() {
@@ -32,11 +32,7 @@ function JobResultsCtrl($scope, $http, $timeout) {
         }, 250)
         
       };
-}
-
-JobResultsCtrl.inject = ['$scope', '$http', '$timeout'];
-
-jobresultsApp.controller('JobResultsCtrl', JobResultsCtrl);
+}]);
 
 
 
