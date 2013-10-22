@@ -32,7 +32,6 @@ function JobResultsCtrl($scope, $http, $timeout) {
         }, 250)
         
       };
-      JobResultsCtrl.$inject = ['$scope', '$http', '$timeout'];
 }
 
 JobResultsCtrl.inject = ['$scope', '$http', '$timeout'];
