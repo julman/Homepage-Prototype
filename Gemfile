@@ -32,6 +32,8 @@ gem 'haml'
 
 gem 'haml-rails'
 
+gem 'newrelic_rpm'
+
 group :development do
 	gem 'sqlite3'
 end
