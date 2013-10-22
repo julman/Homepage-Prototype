@@ -32,7 +32,8 @@ jobresultsApp.controller('JobResultsCtrl', function JobResultsCtrl($scope, $http
         }, 250)
         
       };
+      JobResultsCtrl.$inject = ['$scope', '$http'];
 });
 
-JobResultsCtrl.$inject = ['$scope', '$http'];
+
 
