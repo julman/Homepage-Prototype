@@ -36,6 +36,10 @@ gem 'newrelic_rpm'
 
 group :development do
 	gem 'sqlite3'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry'
+  gem 'pry-debugger'
 end
 
 group :test do

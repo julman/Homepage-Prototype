@@ -1,4 +1,4 @@
-
+JobData = Struct.new(:total_count, :jobs)
 
 class JobController < ApplicationController
 	def search
@@ -22,8 +22,10 @@ class JobController < ApplicationController
 		    job_hash[key] = job.method(key).call rescue nil
 		  end
 		  job_hashes << job_hash
-		end
+    end
 
-		render json: job_hashes
+    job_stuff = JobData.new(searchresults.cb_response.total_count, job_hashes)
+
+		render json: job_stuff
 	end
 end
